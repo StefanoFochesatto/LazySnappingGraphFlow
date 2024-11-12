@@ -2,16 +2,9 @@ import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 from PIL import Image
 import numpy as np
-from PIL import Image, ImageTk
-from tkinter import filedialog
-import tkinter as tk
-import numpy as np
-import cv2
 import maxflow
 from sklearn.cluster import KMeans
-import numpy as np
 from matplotlib import pyplot as ppl
-import networkx as nx
 
 
 # Global variables
